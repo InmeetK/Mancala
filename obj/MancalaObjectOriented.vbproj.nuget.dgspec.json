@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MancalaObjectOriented\\MancalaObjectOriented\\MancalaObjectOriented.vbproj": {}
+    "C:\\Users\\inmee\\Desktop\\MancalaObjectOriented\\MancalaObjectOriented.vbproj": {}
   },
   "projects": {
-    "D:\\MancalaObjectOriented\\MancalaObjectOriented\\MancalaObjectOriented.vbproj": {
+    "C:\\Users\\inmee\\Desktop\\MancalaObjectOriented\\MancalaObjectOriented.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MancalaObjectOriented\\MancalaObjectOriented\\MancalaObjectOriented.vbproj",
+        "projectUniqueName": "C:\\Users\\inmee\\Desktop\\MancalaObjectOriented\\MancalaObjectOriented.vbproj",
         "projectName": "MancalaObjectOriented",
-        "projectPath": "D:\\MancalaObjectOriented\\MancalaObjectOriented\\MancalaObjectOriented.vbproj",
-        "packagesPath": "C:\\Users\\TEMP.ATA.000\\.nuget\\packages\\",
-        "outputPath": "D:\\MancalaObjectOriented\\MancalaObjectOriented\\obj\\",
+        "projectPath": "C:\\Users\\inmee\\Desktop\\MancalaObjectOriented\\MancalaObjectOriented.vbproj",
+        "packagesPath": "C:\\Users\\inmee\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\inmee\\Desktop\\MancalaObjectOriented\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "\\\\ata.local\\StudentRedirection$\\006882\\Application Data\\NuGet\\NuGet.Config",
+          "C:\\Users\\inmee\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\TEMP\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\TEMP\\.nuget\\packages"
+      "C:\\Users\\inmee\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\inmee\\.nuget\\packages"
     ]
   }
 }

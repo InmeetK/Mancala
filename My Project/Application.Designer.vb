@@ -32,7 +32,7 @@ Namespace My
 
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = ObjOriented
+            Me.MainForm = GameWindow
         End Sub
     End Class
 End Namespace

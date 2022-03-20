@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class GameWindow
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -77,7 +77,6 @@ Partial Class Form1
         Me.btnHollow10.Size = New System.Drawing.Size(36, 16)
         Me.btnHollow10.TabIndex = 6
         Me.btnHollow10.UseVisualStyleBackColor = False
-        Me.btnHollow10.Visible = False
         '
         'btnHollow7
         '
@@ -92,7 +91,6 @@ Partial Class Form1
         Me.btnHollow7.Size = New System.Drawing.Size(36, 16)
         Me.btnHollow7.TabIndex = 8
         Me.btnHollow7.UseVisualStyleBackColor = False
-        Me.btnHollow7.Visible = False
         '
         'btnHollow8
         '
@@ -106,7 +104,6 @@ Partial Class Form1
         Me.btnHollow8.Size = New System.Drawing.Size(36, 16)
         Me.btnHollow8.TabIndex = 9
         Me.btnHollow8.UseVisualStyleBackColor = False
-        Me.btnHollow8.Visible = False
         '
         'btnHollow9
         '
@@ -120,7 +117,6 @@ Partial Class Form1
         Me.btnHollow9.Size = New System.Drawing.Size(36, 16)
         Me.btnHollow9.TabIndex = 10
         Me.btnHollow9.UseVisualStyleBackColor = False
-        Me.btnHollow9.Visible = False
         '
         'btnHollow12
         '
@@ -134,7 +130,6 @@ Partial Class Form1
         Me.btnHollow12.Size = New System.Drawing.Size(36, 16)
         Me.btnHollow12.TabIndex = 11
         Me.btnHollow12.UseVisualStyleBackColor = False
-        Me.btnHollow12.Visible = False
         '
         'btnHollow11
         '
@@ -148,7 +143,6 @@ Partial Class Form1
         Me.btnHollow11.Size = New System.Drawing.Size(36, 16)
         Me.btnHollow11.TabIndex = 12
         Me.btnHollow11.UseVisualStyleBackColor = False
-        Me.btnHollow11.Visible = False
         '
         'lblHollow0
         '
@@ -161,7 +155,6 @@ Partial Class Form1
         Me.lblHollow0.TabIndex = 13
         Me.lblHollow0.Text = "0"
         Me.lblHollow0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblHollow0.Visible = False
         '
         'lblHollow9
         '
@@ -174,7 +167,6 @@ Partial Class Form1
         Me.lblHollow9.TabIndex = 14
         Me.lblHollow9.Text = "9" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.lblHollow9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblHollow9.Visible = False
         '
         'lblHollow8
         '
@@ -187,7 +179,6 @@ Partial Class Form1
         Me.lblHollow8.TabIndex = 15
         Me.lblHollow8.Text = "8"
         Me.lblHollow8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblHollow8.Visible = False
         '
         'lblHollow7
         '
@@ -200,7 +191,6 @@ Partial Class Form1
         Me.lblHollow7.TabIndex = 16
         Me.lblHollow7.Text = "7" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.lblHollow7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblHollow7.Visible = False
         '
         'lblHollow6
         '
@@ -213,7 +203,6 @@ Partial Class Form1
         Me.lblHollow6.TabIndex = 17
         Me.lblHollow6.Text = "6"
         Me.lblHollow6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblHollow6.Visible = False
         '
         'lblHollow5
         '
@@ -226,7 +215,6 @@ Partial Class Form1
         Me.lblHollow5.TabIndex = 18
         Me.lblHollow5.Text = "5" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.lblHollow5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblHollow5.Visible = False
         '
         'lblHollow4
         '
@@ -239,7 +227,6 @@ Partial Class Form1
         Me.lblHollow4.TabIndex = 19
         Me.lblHollow4.Text = "4"
         Me.lblHollow4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblHollow4.Visible = False
         '
         'lblHollow3
         '
@@ -252,7 +239,6 @@ Partial Class Form1
         Me.lblHollow3.TabIndex = 20
         Me.lblHollow3.Text = "3"
         Me.lblHollow3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblHollow3.Visible = False
         '
         'lblHollow2
         '
@@ -265,7 +251,6 @@ Partial Class Form1
         Me.lblHollow2.TabIndex = 21
         Me.lblHollow2.Text = "2"
         Me.lblHollow2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblHollow2.Visible = False
         '
         'lblHollow1
         '
@@ -278,7 +263,6 @@ Partial Class Form1
         Me.lblHollow1.TabIndex = 22
         Me.lblHollow1.Text = "1"
         Me.lblHollow1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblHollow1.Visible = False
         '
         'lblHollow12
         '
@@ -291,7 +275,6 @@ Partial Class Form1
         Me.lblHollow12.TabIndex = 23
         Me.lblHollow12.Text = "12"
         Me.lblHollow12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblHollow12.Visible = False
         '
         'lblHollow11
         '
@@ -304,7 +287,6 @@ Partial Class Form1
         Me.lblHollow11.TabIndex = 24
         Me.lblHollow11.Text = "11"
         Me.lblHollow11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblHollow11.Visible = False
         '
         'lblHollow10
         '
@@ -317,7 +299,6 @@ Partial Class Form1
         Me.lblHollow10.TabIndex = 25
         Me.lblHollow10.Text = "10"
         Me.lblHollow10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblHollow10.Visible = False
         '
         'lblHollow13
         '
@@ -330,7 +311,6 @@ Partial Class Form1
         Me.lblHollow13.TabIndex = 26
         Me.lblHollow13.Text = "13"
         Me.lblHollow13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblHollow13.Visible = False
         '
         'btnResetBoard
         '
@@ -366,7 +346,6 @@ Partial Class Form1
         Me.btnHollow0.Size = New System.Drawing.Size(36, 16)
         Me.btnHollow0.TabIndex = 1
         Me.btnHollow0.UseVisualStyleBackColor = False
-        Me.btnHollow0.Visible = False
         '
         'btnHollow1
         '
@@ -380,7 +359,6 @@ Partial Class Form1
         Me.btnHollow1.Size = New System.Drawing.Size(36, 16)
         Me.btnHollow1.TabIndex = 2
         Me.btnHollow1.UseVisualStyleBackColor = False
-        Me.btnHollow1.Visible = False
         '
         'btnHollow2
         '
@@ -394,7 +372,6 @@ Partial Class Form1
         Me.btnHollow2.Size = New System.Drawing.Size(36, 16)
         Me.btnHollow2.TabIndex = 3
         Me.btnHollow2.UseVisualStyleBackColor = False
-        Me.btnHollow2.Visible = False
         '
         'btnHollow3
         '
@@ -408,7 +385,6 @@ Partial Class Form1
         Me.btnHollow3.Size = New System.Drawing.Size(36, 16)
         Me.btnHollow3.TabIndex = 4
         Me.btnHollow3.UseVisualStyleBackColor = False
-        Me.btnHollow3.Visible = False
         '
         'btnHollow4
         '
@@ -422,7 +398,6 @@ Partial Class Form1
         Me.btnHollow4.Size = New System.Drawing.Size(36, 16)
         Me.btnHollow4.TabIndex = 5
         Me.btnHollow4.UseVisualStyleBackColor = False
-        Me.btnHollow4.Visible = False
         '
         'btnHollow5
         '
@@ -436,7 +411,6 @@ Partial Class Form1
         Me.btnHollow5.Size = New System.Drawing.Size(36, 16)
         Me.btnHollow5.TabIndex = 7
         Me.btnHollow5.UseVisualStyleBackColor = False
-        Me.btnHollow5.Visible = False
         '
         'lblPlayerMsg
         '
@@ -449,9 +423,8 @@ Partial Class Form1
         Me.lblPlayerMsg.TabIndex = 29
         Me.lblPlayerMsg.Text = "Player 1's turn..."
         Me.lblPlayerMsg.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.lblPlayerMsg.Visible = False
         '
-        'Form1
+        'GameWindow
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -488,7 +461,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnHollow1)
         Me.Controls.Add(Me.btnHollow0)
         Me.Controls.Add(Me.btnMenu)
-        Me.Name = "Form1"
+        Me.Name = "GameWindow"
         Me.Text = "GameWindow"
         Me.ResumeLayout(False)
 
