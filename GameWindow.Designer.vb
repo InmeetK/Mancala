@@ -23,8 +23,6 @@ Partial Class GameWindow
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.btnMenu = New System.Windows.Forms.Button()
-        Me.lblHollow6 = New System.Windows.Forms.Label()
-        Me.lblHollow13 = New System.Windows.Forms.Label()
         Me.btnResetBoard = New System.Windows.Forms.Button()
         Me.btnPreviousBoard = New System.Windows.Forms.Button()
         Me.lblPlayerMsg = New System.Windows.Forms.Label()
@@ -40,30 +38,6 @@ Partial Class GameWindow
         Me.btnMenu.TabIndex = 0
         Me.btnMenu.Text = "Back to Menu"
         Me.btnMenu.UseVisualStyleBackColor = False
-        '
-        'lblHollow6
-        '
-        Me.lblHollow6.BackColor = System.Drawing.Color.SandyBrown
-        Me.lblHollow6.Font = New System.Drawing.Font("Consolas", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblHollow6.ForeColor = System.Drawing.Color.SaddleBrown
-        Me.lblHollow6.Location = New System.Drawing.Point(969, 212)
-        Me.lblHollow6.Name = "lblHollow6"
-        Me.lblHollow6.Size = New System.Drawing.Size(72, 36)
-        Me.lblHollow6.TabIndex = 17
-        Me.lblHollow6.Text = "6"
-        Me.lblHollow6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'lblHollow13
-        '
-        Me.lblHollow13.BackColor = System.Drawing.Color.SandyBrown
-        Me.lblHollow13.Font = New System.Drawing.Font("Consolas", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.lblHollow13.ForeColor = System.Drawing.Color.SaddleBrown
-        Me.lblHollow13.Location = New System.Drawing.Point(159, 212)
-        Me.lblHollow13.Name = "lblHollow13"
-        Me.lblHollow13.Size = New System.Drawing.Size(72, 36)
-        Me.lblHollow13.TabIndex = 26
-        Me.lblHollow13.Text = "13"
-        Me.lblHollow13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnResetBoard
         '
@@ -109,8 +83,6 @@ Partial Class GameWindow
         Me.Controls.Add(Me.lblPlayerMsg)
         Me.Controls.Add(Me.btnPreviousBoard)
         Me.Controls.Add(Me.btnResetBoard)
-        Me.Controls.Add(Me.lblHollow13)
-        Me.Controls.Add(Me.lblHollow6)
         Me.Controls.Add(Me.btnMenu)
         Me.Name = "GameWindow"
         Me.Text = "GameWindow"
@@ -122,11 +94,9 @@ Partial Class GameWindow
     Friend WithEvents lblHollow9 As Label
     Friend WithEvents lblHollow8 As Label
     Friend WithEvents lblHollow7 As Label
-    Friend WithEvents lblHollow6 As Label
     Friend WithEvents lblHollow12 As Label
     Friend WithEvents lblHollow11 As Label
     Friend WithEvents lblHollow10 As Label
-    Friend WithEvents lblHollow13 As Label
     Friend WithEvents btnResetBoard As Button
     Friend WithEvents btnPreviousBoard As Button
     Friend WithEvents lblPlayerMsg As Label

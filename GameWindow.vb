@@ -14,15 +14,25 @@ Public Class GameWindow
         Dim listOfHoles As List(Of Hole) = New List(Of Hole)
 
         Dim size As New Size(76, 76)
+        Dim mancalaSize As New Size(110, 180)
         Dim location As Point
         For index = 0 To 13
-            If index > 6 Then
-                location = New Point(845 - 110 * (index - 7), 140)
+            Dim hole As Hole
+            If index > 6 And index <> 13 Then
+                location = New Point(845 - 110 * (index - 7), 130)
+                hole = board.makeHollow(index, size, location)
+            ElseIf index = 6 Then
+                location = New Point(960, 140)
+                hole = board.makeMancala(index, mancalaSize, location)
+            ElseIf index = 13 Then
+                location = New Point(140, 140)
+                hole = board.makeMancala(index, mancalaSize, location)
             Else
                 location = New Point(295 + 110 * index, 265)
+                hole = board.makeHollow(index, size, location)
             End If
 
-            Dim hole As Hole = board.makeHollow(index, size, location)
+
             listOfHoles.Add(hole)
             Controls.Add(hole)
         Next
@@ -48,7 +58,21 @@ Public Class Board
 
 
     Public Function makeHollow(index As Integer, size As Size, location As Point)
-        Dim Hole0 As Hole = New Hole(4)
+        Dim Hole0 As Hole = New Hole()
+        With Hole0
+            .ForeColor = Color.SaddleBrown
+            .BackColor = Color.SandyBrown
+            .Size = size
+            .Name = "Hole" & index
+            .Location = location
+            .Text = Hole0.seedCount
+            .Font = New Font("Consolas", 20.25, FontStyle.Bold)
+        End With
+        Return Hole0
+    End Function
+
+    Public Function makeMancala(index As Integer, size As Size, location As Point)
+        Dim Hole0 As Hole = New MancalaHole()
         With Hole0
             .ForeColor = Color.SaddleBrown
             .BackColor = Color.SandyBrown

@@ -4,16 +4,7 @@ Public Class Hole
     Inherits Button
     Protected WindowPosition As Point = New Point(0, 0)
     Protected HollowSize As Size = New Size(70, 70)
-    Public seedCount As Integer
-
-
-
-    Public Sub New(seeds As Integer)
-        seedCount = seeds
-
-
-
-    End Sub
+    Public seedCount As Integer = 4
 
     Protected Sub holeClick(sender As Object, e As EventArgs) Handles Me.Click
         seedCount += 1
@@ -26,4 +17,14 @@ Public Class Hole
 
         Me.Region = New Region(grPath)
     End Sub
+End Class
+Class MancalaHole
+    Inherits Hole
+    Public Sub New()
+        seedCount = 0
+        HollowSize = New Size(110, 180)
+        Enabled = False
+    End Sub
+
+
 End Class
