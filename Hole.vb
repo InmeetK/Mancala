@@ -1,31 +1,29 @@
-﻿Public Class Hole
-    Protected windowPosition As Point
-    Protected seedCount As Integer
-    Public button As New Button()
+﻿Imports System.Windows.Forms
+Imports System.Drawing.Drawing2D
+Public Class Hole
+    Inherits Button
+    Protected WindowPosition As Point = New Point(0, 0)
+    Protected HollowSize As Size = New Size(70, 70)
+    Public seedCount As Integer
 
-    Public Sub New(x As Integer, y As Integer, initialSeeds As Integer)
-        windowPosition.X = x
-        windowPosition.Y = y
-        button.Size = New Point(70, 70)
-        button.BackColor = Color.SandyBrown
 
-        button.Top = windowPosition.Y
-        button.Left = windowPosition.X
-        seedCount = initialSeeds
-        button.Text = seedCount
+
+    Public Sub New(seeds As Integer)
+        seedCount = seeds
+
+
 
     End Sub
 
-    Public Function GetSeedCount()
-        Return seedCount
-    End Function
-    Public Sub SetSeedCount(NewSeedCount As Integer)
-        seedCount = NewSeedCount
-        button.Text = seedCount
+    Protected Sub holeClick(sender As Object, e As EventArgs) Handles Me.Click
+        seedCount += 1
+        Text = seedCount
     End Sub
-    Public Sub AddOneSeed()
-        Threading.Thread.Sleep(500)
-        SetSeedCount(seedCount + 1)
-    End Sub
+    Protected Overrides Sub OnPaint(pevent As PaintEventArgs)
+        MyBase.OnPaint(pevent)
+        Dim grPath As GraphicsPath = New GraphicsPath()
+        grPath.AddEllipse(WindowPosition.X, WindowPosition.Y, HollowSize.Width, HollowSize.Height)
 
+        Me.Region = New Region(grPath)
+    End Sub
 End Class

@@ -4,5 +4,8 @@
     <Compile Update="GameWindow.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Hole.vb">
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
